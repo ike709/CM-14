@@ -24,7 +24,7 @@ public sealed class BeamSystem : SharedBeamSystem
             sprites.Rotation = args.UserAngle;
 
             if (args.BodyState != null)
-            {
+            {//awoijaoiwfjoia
                 sprites.LayerSetState(0, args.BodyState);
                 sprites.LayerSetShader(0, args.Shader);
             }
